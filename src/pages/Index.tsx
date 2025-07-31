@@ -7,24 +7,7 @@ import { ArrowRight, Star, Users, Trophy } from "lucide-react";
 
 const Index = () => {
   const testimonials = [
-    {
-      name: "Sarah Mitchell",
-      company: "TechStart Inc.",
-      content: "ONEQANA transformed our digital presence completely. Their attention to detail and technical expertise is unmatched.",
-      rating: 5
-    },
-    {
-      name: "Marcus Johnson", 
-      company: "Growth Solutions",
-      content: "Working with ONEQANA was a game-changer. They delivered beyond our expectations and on time.",
-      rating: 5
-    },
-    {
-      name: "Emily Chen",
-      company: "Innovation Labs",
-      content: "The team's creativity and technical skills helped us launch our platform successfully. Highly recommended!",
-      rating: 5
-    }
+   
   ];
 
   return (
