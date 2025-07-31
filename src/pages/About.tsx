@@ -28,22 +28,11 @@ const About = () => {
 
   const team = [
     {
-      name: "Sarah Johnson",
+      name: "Brian kiplagat",
       role: "Founder & CEO",
       bio: "10+ years in tech leadership, passionate about digital transformation.",
-      gradient: "from-primary to-primary-glow"
-    },
-    {
-      name: "Michael Chen",
-      role: "Lead Developer",
-      bio: "Full-stack expert specializing in modern web technologies and cloud solutions.",
-      gradient: "from-secondary to-secondary-glow"
-    },
-    {
-      name: "Emily Rodriguez",
-      role: "Design Director",
-      bio: "Award-winning designer with expertise in UX/UI and brand identity.",
-      gradient: "from-accent to-accent-glow"
+      gradient: "from-primary to-primary-glow",
+      image:""
     }
   ];
 
@@ -71,16 +60,16 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Founded in 2019, ONEQANA emerged from a simple belief: every business 
+                  Founded in 2024, ONEQANA emerged from a simple belief: every business 
                   deserves access to world-class digital solutions that drive real results.
                 </p>
                 <p>
-                  What started as a small team of passionate developers has grown into 
+                  What started as a passionate developers ambition has grown into 
                   a full-service digital agency, serving clients across industries with 
                   innovative web design, software development, and tech integration services.
                 </p>
                 <p>
-                  Today, we've helped over 50 businesses transform their digital presence, 
+                  Today, we've helped 5+ businesses with 100+ on the way and looking to  transform their digital presence, 
                   streamline operations, and achieve sustainable growth in an increasingly 
                   connected world.
                 </p>
@@ -158,7 +147,11 @@ const About = () => {
                 <CardContent className="p-8">
                   <div className={`w-32 h-32 bg-gradient-to-r ${member.gradient} rounded-full mx-auto mb-6 flex items-center justify-center`}>
                     <div className="w-24 h-24 bg-background rounded-full flex items-center justify-center">
-                      <Users className="h-12 w-12 text-primary" />
+                       <img
+                          src={member.image}
+                           alt={member.name}
+                           className="w-full h-full object-cover"
+                        />
                     </div>
                   </div>
                   <h3 className="text-xl font-bold mb-2">{member.name}</h3>
