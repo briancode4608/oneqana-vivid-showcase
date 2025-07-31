@@ -17,15 +17,10 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      content: "+1 (555) 123-4567",
+      content: "0746082707",
       description: "Mon-Fri from 8am to 6pm"
     },
-    {
-      icon: <MapPin className="h-6 w-6" />,
-      title: "Office",
-      content: "123 Tech Street, Digital City",
-      description: "Visit our headquarters"
-    },
+   
     {
       icon: <Clock className="h-6 w-6" />,
       title: "Response Time",
@@ -145,11 +140,11 @@ const Contact = () => {
                     className="w-full px-3 py-2 bg-background/50 border border-input rounded-md text-foreground"
                   >
                     <option value="">Select budget range</option>
-                    <option value="under-5k">Under $5,000</option>
-                    <option value="5k-10k">$5,000 - $10,000</option>
-                    <option value="10k-25k">$10,000 - $25,000</option>
-                    <option value="25k-50k">$25,000 - $50,000</option>
-                    <option value="over-50k">Over $50,000</option>
+                    <option value="under-5k">Under 5,000</option>
+                    <option value="5k-10k">5,000 - 10,000</option>
+                    <option value="10k-25k">10,000 - 25,000</option>
+                    <option value="25k-50k">25,000 - 50,000</option>
+                    <option value="over-50k">Over $0,000</option>
                   </select>
                 </div>
                 
@@ -233,26 +228,7 @@ const Contact = () => {
       </section>
 
       {/* Map Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Visit Our <span className="gradient-text">Office</span>
-            </h2>
-            <p className="text-muted-foreground">
-              Located in the heart of the tech district, we're always ready to meet in person.
-            </p>
-          </div>
-          
-          <div className="w-full h-64 bg-gradient-secondary rounded-2xl flex items-center justify-center">
-            <div className="text-center text-secondary-foreground">
-              <MapPin className="h-12 w-12 mx-auto mb-4" />
-              <p className="text-lg font-medium">Interactive Map Coming Soon</p>
-              <p className="text-secondary-foreground/70">123 Tech Street, Digital City</p>
-            </div>
-          </div>
-        </div>
-      </section>
+    
     </div>
   );
 };
