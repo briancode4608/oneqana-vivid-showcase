@@ -6,7 +6,7 @@ import { ExternalLink, Github } from "lucide-react";
 const Portfolio = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Bling",
       category: "Web Development",
       description: "Modern e-commerce solution with payment integration, inventory management, and analytics dashboard.",
       tech: ["React", "Node.js", "MongoDB", "Stripe"],
@@ -14,9 +14,9 @@ const Portfolio = () => {
       featured: true
     },
     {
-      title: "Healthcare Mobile App",
+      title: "delivery drive",
       category: "Mobile Development", 
-      description: "Patient management app with appointment scheduling, medical records, and telemedicine features.",
+      description: "transport and delivery managment system and servise provide.",
       tech: ["React Native", "Firebase", "WebRTC"],
       gradient: "from-secondary to-secondary-glow",
       featured: true
@@ -46,7 +46,7 @@ const Portfolio = () => {
       featured: false
     },
     {
-      title: "Learning Management System",
+      title: "techlabs ",
       category: "Educational Platform",
       description: "Online learning platform with course creation, progress tracking, and interactive assessments.",
       tech: ["React", "Django", "Redis"],
