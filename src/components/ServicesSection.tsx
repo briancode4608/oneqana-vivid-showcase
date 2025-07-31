@@ -84,7 +84,7 @@ const ServicesSection = () => {
         {/* Stats section */}
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div className="animate-scale-in delay-200">
-            <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">50+</div>
+            <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">5+</div>
             <div className="text-muted-foreground">Projects Completed</div>
           </div>
           <div className="animate-scale-in delay-400">
@@ -92,7 +92,7 @@ const ServicesSection = () => {
             <div className="text-muted-foreground">Client Satisfaction</div>
           </div>
           <div className="animate-scale-in delay-600">
-            <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">5+</div>
+            <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">3+</div>
             <div className="text-muted-foreground">Years Experience</div>
           </div>
           <div className="animate-scale-in delay-800">
