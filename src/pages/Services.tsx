@@ -8,20 +8,20 @@ const Services = () => {
   const packages = [
     {
       name: "Starter",
-      price: "$2,500",
+      price: "10,000 ksh",
       description: "Perfect for small businesses and startups",
       features: [
         "Custom responsive website",
         "Mobile optimization",
         "Basic SEO setup", 
         "Contact form integration",
-        "3 months support"
+        "1 months support"
       ],
       popular: false
     },
     {
       name: "Professional",
-      price: "$5,000",
+      price: "25,000-50,000 ksh",
       description: "Ideal for growing businesses",
       features: [
         "Everything in Starter",
@@ -29,7 +29,7 @@ const Services = () => {
         "Database integration",
         "API development",
         "Advanced analytics",
-        "6 months support"
+        "3 months support"
       ],
       popular: true
     },
@@ -43,7 +43,7 @@ const Services = () => {
         "Cloud infrastructure",
         "Advanced security features",
         "Dedicated project manager",
-        "12 months support"
+        "6 months support"
       ],
       popular: false
     }
